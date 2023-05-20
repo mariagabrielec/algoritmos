@@ -1,0 +1,5 @@
+deposito = float(input("Digite o valor do depósito: R$ "))
+juros = float(input("Digite o percentual de taxa de juros: "))
+totaldepoisto = deposito * (1+juros/100)
+print(f"O rendimento foi de: R$ {totaldepoisto-deposito} de aumento")
+print(f"Valor total com rendimento: R$ {totaldepoisto:.2f}")
